@@ -1,0 +1,11 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:mysql://localhost:3308/blog
+    username: root
+    password:
+logging:
+  level:
+    root: INFO
